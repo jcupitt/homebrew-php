@@ -4,8 +4,8 @@ class Php70Vips < AbstractPhp70Extension
   init
   desc "Native part of php-vips"
   homepage "https://github.com/jcupitt/php-vips-ext"
-  url "https://github.com/jcupitt/php-vips-ext/archive/v0.1.3.tar.gz"
-  sha256 "dfd11b502e00ce7e406cf8f82fe48fe9612df1a818d3dc6cb4c8561092699ae8"
+  url "https://github.com/jcupitt/php-vips-ext/archive/v1.0.2.tar.gz"
+  sha256 "52d005ecc18930c97e1927c6a8b5d9390614946520b895fea42a5b790e34c4df"
   head "https://github.com/jcupitt/php-vips-ext.git"
 
   depends_on "pkg-config" => :build
